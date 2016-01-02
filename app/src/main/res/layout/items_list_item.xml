@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="70dp"
+              android:orientation="horizontal"
+              android:background="@color/high_score_background">
+
+    <ImageView
+        android:id="@+id/items_list_item_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center_vertical"/>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="20dp">
+
+        <RelativeLayout
+            android:id="@+id/items_list_item_value_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true">
+
+            <TextView
+                android:id="@+id/items_list_item_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10"
+                android:textSize="16sp"
+                android:textColor="#33ccff"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10000"
+                android:textSize="16sp"
+                android:visibility="invisible"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/items_list_item_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="was collected"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/items_list_item_value_container"/>
+
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

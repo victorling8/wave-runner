@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="waverunner.example.victorling8.waverunner" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/NoActionBarTheme">
+        <activity
+            android:name=".MainScreen.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".GameAndTutorial.GameActivity">
+
+        </activity>
+
+        <activity android:name=".ShopScreen.ShopActivity">
+
+        </activity>
+
+        <activity android:name=".ModesScreen.SettingsActivity">
+
+        </activity>
+
+        <activity android:name=".GameAndTutorial.TutorialActivity">
+
+        </activity>
+
+        <activity android:name=".ScoresScreen.HighScoreActivity">
+
+        </activity>
+    </application>
+
+</manifest>

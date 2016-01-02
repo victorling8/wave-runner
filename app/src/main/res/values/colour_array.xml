@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="colour_array">
+        <item>0xffff0000</item>
+        <item>0xffff6600</item>
+        <item>0xffff9933</item>
+        <item>0xffffcc00</item>
+        <item>0xffffff00</item>
+        <item>0xff99ff33</item>
+        <item>0xff33cc33</item>
+        <item>0xff33ccff</item>
+        <item>0xff0066ff</item>
+        <item>0xff9966ff</item>
+        <item>0xff9900ff</item>
+        <item>0xffff00ff</item>
+    </integer-array>
+</resources>

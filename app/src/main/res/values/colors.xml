@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="game_dialog_colour" type="color">#222222</item>
+    <item name="high_score_background" type="color">#444444</item>
+    <item name="transparent_colour" type="color">#00000000</item>
+    <item name="high_score_recycler_view_colour" type="color">#000000</item>
+
+</resources>

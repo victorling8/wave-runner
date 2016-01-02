@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="70dp"
+              android:background="@color/high_score_background">
+
+    <ImageView
+        android:id="@+id/high_score_medal"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center_vertical"/>
+
+    <include layout="@layout/colour_circle"/>
+
+    <TextView
+        android:id="@+id/high_score_item_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textSize="18sp"
+        android:textColor="#ffffff"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:gravity="right">
+
+        <TextView
+            android:id="@+id/high_score_item_coins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:textColor="#ffff00"
+            android:layout_marginRight="10dp"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/coin"
+            android:layout_marginRight="30dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
